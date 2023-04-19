@@ -1,0 +1,4 @@
+.offcanvas.show:not(.hiding) {
+    background-image: url('../assets/cartWallpaper.jpeg')
+
+}

@@ -1,0 +1,19 @@
+.Header{
+    
+    display:flex;
+    height: 200px;
+    flex-direction:row;
+    justify-content: space-between;
+    background-image: url("../assets/Navbarimg7777.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.btn{
+    height: 50px;
+}
+
+.image{
+    width: 50px;
+    height: 50px;
+}

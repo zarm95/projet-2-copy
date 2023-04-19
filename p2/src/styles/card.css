@@ -1,0 +1,131 @@
+.title-price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:20px;
+}
+
+.stars{
+ padding :20px
+}
+
+.cart-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    flex-wrap: wrap;
+    padding: 5px;
+
+}
+
+
+.containerDetails {
+    display: flex;
+    justify-content: center;
+}
+
+.carte {
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    height: 400px;
+    padding: 10px;
+    margin: 20px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(209, 173, 56, 0.2);
+    border: 10px solid rgb(209, 173, 56, 0.7);
+    border-radius: 10px;
+    text-align: center;
+    transition: background-color 1s ease 0s;
+}
+
+.carte:hover {
+    transform: scale(103%);
+    background-color: rgba(209, 173, 56, 0.6);
+
+
+}
+
+.carteDetails {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 10px;
+    margin: 20px;
+    align-items: center;
+    background-color: rgba(209, 173, 56, 0.3);
+    border: 10px solid rgb(209, 173, 56, 0.7);
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+
+.carteInCart {
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+    justify-content: space-around;
+    background-color: rgba(209, 173, 56, 0.3);
+    border: 10px solid rgb(209, 173, 56, 0.7);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.image{
+    
+    width: auto;
+    height: 100px;
+}
+ 
+.addToCartBtn {
+    border: none;
+    border-radius: 16px;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(69, 189, 230, 0.5);
+    padding: 10px;
+    margin-right: 10px;
+
+}
+
+
+.columnLeftCartArticle {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.columnCenterCartArticle {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.columnRightCartArticle {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btnDeleteCart {
+    border: none;
+    border-radius: 16px;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(230, 96, 69, 0.5);
+    padding: 10px;
+    margin-right: 10px;
+
+}
